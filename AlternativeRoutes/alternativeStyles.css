@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 16px;
+}
+.hero-section-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 50vh;
+    width: 100vw;
+    font-size: 7rem;
+}
+ /* alternative paths about section */
+.alternative-paths-text{
+    font-size: 1.4rem;
+    line-height: 1.6;
+    padding: 0 40px;
+}
+.alternative-paths-container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 90px 0;
+}
+
+/* principles section */
+.principle-section-header, .principle-section-intro, .alternatives-section-header, .alternatives-section-intro{
+    text-align: center;
+}
+
+.principle-section-header,.alternatives-section-header{
+    font-size:5rem;
+    padding: 20px;
+}
+.principle-section-intro,.alternatives-section-intro{
+    font-size: 2.5rem;
+    font-weight: lighter;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+.principles-container{
+    display: flex;
+    flex-direction: column;
+}
+.principle-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.principle-text, .principle-img{
+    width: 50%;
+    padding: 30px;
+}
+.principle-img{
+    width: 500px;
+    height: 500px;
+}
+.principle-header{
+    font-size: 4rem;
+    font-style: italic;
+}
+.principle-text{
+    font-size: 1.5rem;
+    width: 45%;
+    line-height: 1.6;
+}
+
+
+/* Alternative options */
+.alternatives-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 100px;
+}
+.alternative-option{
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.alternative-option-img{
+    width: 300px;
+    height: 300px;
+}
+
+.secondary-color{
+    background-color: aqua;
+    width: 100vw;
+}
+
+/* Medis Queries */
+
+@media only screen and  (max-width: 1415px){
+
+.alternatives-container{
+    flex-wrap: wrap;
+}
+
+}
+@media only screen and  (max-width: 1280px){
+
+    .hero-text{
+        font-size: 5rem;
+}
+
+}
+
+
+@media only screen and  (max-width: 1000px){
+    .alternatives-section-header,.hero-text, .principle-header, .principle-section-header{
+        font-size: 2rem;
+}
+.principle-section-intro, .alternatives-section-intro{
+    font-size: 1.5rem;
+    width: 90%;
+}
+    .principle-container{
+        flex-direction: column;
+    }
+
+    .principle-text{
+        font-size: 1.5rem;
+        width: 90%;
+        line-height: normal;
+    }
+.hero-section-container{
+    height: auto;
+    margin: 30px;
+}
+    .alternative-paths-container{
+        flex-direction: column;
+       padding: 20px;
+       line-height: normal;
+    }
+    .alternative-paths-text{
+        font-size: 1rem;
+        line-height: normal;
+        padding: 0 40px;
+        margin-bottom: 10px;
+    }
+}    
