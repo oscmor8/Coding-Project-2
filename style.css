@@ -1,3 +1,27 @@
+https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Francois+One&family=Karla:wght@300&display=swap
+
+:root{
+    --main-color: #FE5757;
+    --secondary-color: #36CB8E;
+    --light-accent-color:#82B0FF;
+    --dark-accent-color: #9D74D8;
+    --paragraph-text-color: black;
+    --main-headings: black ;
+    --secondary-headings-font: 'Francois One', sans-serif;
+    --main-headings-font: 'Alfa Slab One';
+    --paragraph-text-font: 'Karla', sans-serif;
+}
+
+h1{
+    font-family: var(--main-headings-font);
+}
+h2,h3,h4,h5,h6 {
+    font-family: var(--secondary-headings-font);
+}
+p {
+    font-family: var(--paragraph-text-font);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -5,12 +29,8 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: 'Courier New', Courier, monospace;
-}
-
 header{
-    background-color: #1B2D37;
+    background-color: black;
 }
 
 li{list-style: none;}
@@ -20,7 +40,7 @@ a{
 }
 
 .navbar{
-    min-height: 70px;
+    min-height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,7 +77,7 @@ a{
     background-color: white;
 }
 
-@media(max-width:768px){
+@media(max-width:820px){
     .hamburger{
         display: block;
     }
@@ -67,7 +87,7 @@ a{
         top: 70px;
         gap: 10px;
         flex-direction: column;
-        background-color: #1B2D37;
+        background-color: black;
         width: 100%;
         text-align: center;
         transform: 0.3s;
@@ -79,5 +99,90 @@ a{
 
     .nav-menu.active{
         left: 0;
+    }
+}
+
+.financial{
+    height: 55em;
+    width: 100%;
+}
+
+.minority
+{
+    height: 40em;
+    width: 60%;
+   float: right;
+   display: flex;
+}
+
+.about{
+width: 40%;
+padding: 10%;
+height: 40rem;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer-container{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-media a i{
+        font-size: 2em;
+    }
+
+
+.social-media i{
+    color: black;
+}
+
+.footer-nav{
+    margin: 30px;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a{
+    color: white;
+    margin: 20px;
+    font-size: 1.5em;
+}
+
+@media (max-width:412px){
+
+    .minority{
+        display: none;
+    }
+
+    .about{
+        width: 100%;
+    }
+    .footer-nav ul{
+        flex-direction: column;
+    }
+
+    .footer-nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
     }
 }
