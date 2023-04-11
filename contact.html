@@ -76,6 +76,11 @@
         </ul>
     </section>
 </footer>
-    <script src="script.js"></script>
+    <script src="script.js">
+   // prevent defaut behavior when button is submitted 
+        document.getElementById("submit").addEventListener("click", function(event){
+             event.preventDefault()
+                });
+    </script>
 </body>
 </html>
