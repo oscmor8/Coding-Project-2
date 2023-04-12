@@ -171,6 +171,7 @@ h2 {
     box-sizing: border-box;
     background-color:#FE5757 ;
     border: 1em var(--secondary-color) transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .section-container2 {
@@ -181,6 +182,7 @@ h2 {
     box-sizing: border-box;
     background-color: #36CB8E;
     border: 3em var(--secondary-color) transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 
@@ -192,6 +194,7 @@ h2 {
     box-sizing: border-box;
     background-color: #82B0FF;
     border: 3em var(--secondary-color) transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 
@@ -203,6 +206,7 @@ h2 {
     box-sizing: border-box;
     background-color: #9D74D8;
     border: 3em var(--secondary-color) transparent;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 
