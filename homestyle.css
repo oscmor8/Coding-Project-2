@@ -81,25 +81,16 @@ nav{
    margin: 1rem;
 }
 
-.wrapper{
-    display: flex;
-    flex-direction: row;
-}
 
 .about{
-    flex: 1;
-    width: 50%;
+    width: 80%;
     padding: 10%;
     text-align: center;
     padding-top: 100px;
 }
 
-.minority{
-    flex: 1;
-    width: 50%;
-    
-    height: 40rm;
-}
+.about
+
 
 
 @media(max-width:820px){
