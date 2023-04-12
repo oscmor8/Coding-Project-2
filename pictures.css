@@ -17,6 +17,8 @@
 .example-header{
     font-size: 3rem;
     width: 50%;
+    font-family: var(--main-headings-font);
+    letter-spacing: 3px;
 }
 .financial-example-text{
     width: 60%;
