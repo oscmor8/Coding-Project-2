@@ -9,11 +9,16 @@
 
 header{
     background-color: black;
+
 }
+
+
 li{list-style: none;}
 a{
     color: white;
 }
+
+
 .navbar{
     min-height: 100px;
     display: flex;
