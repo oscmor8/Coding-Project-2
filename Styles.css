@@ -1,3 +1,5 @@
+/* Header/Nav */
+
 *{
     padding: 0;
     margin: 0;
@@ -45,6 +47,7 @@ a{
     margin: 5px auto;
     background-color: white;
 }
+/* MediaQ Nav */
 @media(max-width:820px){
     .hamburger{
         display: block;
@@ -68,9 +71,7 @@ a{
     }
 }
 
-.hero-text{
-    margin-bottom: 80px;
-}
+/* Footer/ Social Icons */
 footer{
     background-color: black;
 }
@@ -108,7 +109,26 @@ footer{
     font-size: 1.5em;
 }
 
+/* Mediaq Footer*/
+@media (max-width:412px){
+    .minority{
+        display: none;
+    }
+    .about{
+        width: 100%;
+    }
+    .footer-nav ul{
+        flex-direction: column;
+    }
+    .footer-nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
 
+
+/* Hero */
 .hero-container {
     background-color: white;
     display: flex;
@@ -122,6 +142,18 @@ footer{
     letter-spacing: 4px;
 }
 
+
+.hero-image {
+    width: 100%;
+    height: 25vh;
+    float: right;
+}
+
+.hero-text{
+    margin-bottom: 80px;
+}
+
+/* Why Sections */
 .background {
     height: 100vh;
     width: 50%;
@@ -188,33 +220,8 @@ h2 {
     box-shadow: rgba(241, 219, 27, 0.25) 0px 54px 55px, rgba(241, 219, 27, 0.12) 0px -12px 30px, rgba(241, 219, 27, 0.12) 0px 4px 6px, rgba(241, 219, 27, 0.17) 0px 12px 13px, rgba(241, 219, 27, 0.09) 0px -3px 5px;
 }
 
-.hero-image {
-    width: 100%;
-    height: 25vh;
-    float: right;
-}
 
-
-
-/* Mediaq */
-@media (max-width:412px){
-    .minority{
-        display: none;
-    }
-    .about{
-        width: 100%;
-    }
-    .footer-nav ul{
-        flex-direction: column;
-    }
-    .footer-nav ul li{
-        width: 100%;
-        text-align: center;
-        margin: 10px;
-    }
-}
-
-/* Mediaq */
+/* Mediaq Why/Top Sections*/
 @media (max-width:820px){
 .section-container1 {
     width: 100%;
@@ -252,7 +259,7 @@ h2 {
 }
 }
 
-/* Mediaq */
+/* Mediaq Hero 390*/
 @media (max-width:390px){
     .hero-container{
         background-color: white;
@@ -272,7 +279,7 @@ h2 {
     
         }
 
-/* Mediaq */
+/* Mediaq Hero 830*/
 @media (max-width:830px){
 
 .hero-container{
