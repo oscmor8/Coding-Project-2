@@ -1,5 +1,5 @@
 @import "global.css";
-
+/* confused on how to link global css */
 .example-container{
     display: flex;
     justify-content: space-around;
@@ -12,7 +12,7 @@ padding: 2.5em;
 width: 90%;
 z-index: 2;
 }
-
+/* trouble with image size */
 .img{
     width: 25em;
     height: 25em;
@@ -29,6 +29,7 @@ z-index: 2;
 .financial-example-text{
     width: 60%;
 }
+/* also to adjust image size */
 .example-img{
     width: 40%;
 }
