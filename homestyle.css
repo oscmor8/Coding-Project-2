@@ -1,4 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Francois+One&family=Karla:wght@300&display=swap');
+:root{
+    --main-headings-font:'Alfa Slab One'
+    --secondary-headings-font: 'Francois One', sans-serif;
+}
 
 *{
     padding: 0;
@@ -24,6 +28,7 @@ nav{
 }
 .hero{
     letter-spacing: 4px;
+    font-family: var(--main-headings-font);
 }
 
 .logo{
@@ -35,6 +40,14 @@ nav{
     flex: 1;
     text-align: right;
 }
+
+.nav-link:hover{
+    color:  #feaf61;
+    transition: all 0.3s ease 0s;
+    font-weight: bolder;
+    font-size: larger;
+}
+
 
 .nav-links ul li{
     list-style: none;
@@ -92,6 +105,7 @@ nav{
 .home-container h2{
     font-size: 2.5rem;
     font-weight: 600;
+    font-family: var(--secondary-headings-font);
 }
 
 .about-par{
