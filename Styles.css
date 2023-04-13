@@ -197,6 +197,7 @@ h2 {
     height: 27vh;
     float: left;
     padding: 1em;
+    border-radius: 25px;
     box-sizing: border-box;
     background-color:#FE5757 ;
     border: 3em var(--secondary-color) transparent;
@@ -208,6 +209,7 @@ h2 {
     height: 27vh;
     float: right;
     padding: 1em;
+    border-radius: 25px;
     box-sizing: border-box;
     background-color: #36CB8E;
     border: 3em var(--secondary-color) transparent;
@@ -219,6 +221,7 @@ h2 {
     height: 27vh;
     float: left;
     padding: 1em;
+    border-radius: 25px;
     box-sizing: border-box;
     background-color: #82B0FF;
     border: 3em var(--secondary-color) transparent;
@@ -230,6 +233,7 @@ h2 {
     height: 27vh;
     float: right;
     padding: 1em;
+    border-radius: 25px;
     box-sizing: border-box;
     background-color: #9D74D8;
     border: 3em var(--secondary-color) transparent;
@@ -352,7 +356,7 @@ h2 {
       .principles::before{
         content: "";
         width: 100%;
-        height: 1300px;
+        height: 1500px;
         position: absolute;
         background-color: var(--light-accent-color);
         top: 2000;
@@ -364,7 +368,7 @@ h2 {
       align-items: center;
       justify-content: center;
       padding: 25px;
-      margin-bottom: 400px;
+      margin-bottom: 200px;
       }
       .principle-header{
       font-size: 2.5rem;
@@ -378,7 +382,7 @@ h2 {
       height: 100%;
       margin-left: auto;
       margin-right: auto;
-      line-height:normal;
+      line-height: normal;
       color: #ffffff;
       font-family: var(--paragraph-text-font);
       margin-bottom: 10px;
