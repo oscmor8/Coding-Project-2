@@ -5,8 +5,6 @@
     box-sizing: border-box;
     transition: all 0.3s ease-in-out;
   }
-
-  
   .contact-container {
     display: flex;
     width: 100vw;
@@ -137,7 +135,7 @@
 }
 
 
-@media only screen and  (max-width: 690px){
+@media only screen and  (max-width: 720px){
     .right-col{
         width: 100%;
     }
@@ -152,6 +150,9 @@
     
       }
       h1{
-        font-size: 1.6rem;
+        font-size: 1rem;
+      }
+      .contact{
+        font-size: 2rem;
       }
 }
