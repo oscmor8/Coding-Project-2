@@ -14,7 +14,6 @@ margin-right: auto;
 padding: 2.5em;
 /* decided on 90% so it wont take up whole space in the container */
 width: 90%;
-z-index: 2;
 }
 /* trouble with image size */
 .img{
@@ -64,7 +63,18 @@ margin-right: auto;
     background-color: rgba(145, 6, 6, 0.12);
     }
     
-
+    @media only screen and (max-width: 1500px){
+        .img{
+            width: 20em;
+            height: 20em;
+            margin-left: 2em;
+            
+        }
+        .example-header{
+            font-size: 1.5rem;
+        }
+        
+    }
 
 @media only screen and (max-width: 900px) {
   
@@ -72,25 +82,34 @@ margin-right: auto;
     height: 12.5em;
     width: 12.5em;
     margin: 0;
-
-
 }
 
 
-.example-header{
-    font-size: 2rem;
-}
 
 .financial-example-text{
-    width: 80%;
+    width: 95%;
 }
 }
 
 
-@media only screen and (max-width: 620px) {
+@media only screen and (max-width: 700px) {
     .example-container{
         flex-direction: column;
+        margin: 30px;
+        padding: 10px;
     }
+.example-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    width: 90%;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 }
 
 
