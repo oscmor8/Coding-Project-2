@@ -10,11 +10,11 @@
 }
 
 .header{
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
-    background-image: url(financial.webp);
-    background-position: center;
-    background-size: cover;
+    background-image: url(financial.webp); 
+    background-position: center; 
+    background-size: cover; /* Scales the background to cover the entire header element*/
     position: relative;
 }
 
@@ -49,7 +49,7 @@ nav{
 .nav-links ul li{
     list-style: none;
     display: inline-block;
-    padding: 8px 12px;
+    padding: 1.5% 1%;
     position: relative;
 }
 
@@ -64,10 +64,10 @@ nav{
 }
 
 .bar{
-    display: block;
-    width: 25px;
+    display: block; /* it will be displayed as a rectangular block with a hight and width*/
+    width: 5%;
     height: 3px;
-    margin: 5px 4rem;
+    margin: 1% 4rem;
     background-color: white;
 }
 /* Main Section Edits Start Here*/
@@ -75,10 +75,10 @@ nav{
 .text-box{
     width: 80%;
     color: white;
-    position: absolute;
+    position: absolute; /* will be positioned with respect to .header because it is the nearest positioned ancestor*/
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); /*will be moved back by %50 of its width and height to center itself vertically and horizontally*/
     text-align: center;
 }
 
@@ -127,7 +127,7 @@ nav{
 .home-pics img{
     width: 60%;
     height: 80%;
-    border-radius: 20px;
+    border-radius: 10%;
 }
 
 .row p{
@@ -201,20 +201,20 @@ footer{
     }
 
     .text-box h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
     
     }
     
     .text-box p{
-        font-size: 1rem;
+        font-size: 2rem;
        margin: 1rem;
     }
 
     .nav-menu{
         position: fixed;
         left: -100%;
-        top: 70px;
-        gap: 5px;
+        top: 5.6%;
+    
         display: flex;
         flex-direction: column;
         background-color: black;
